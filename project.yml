@@ -1,0 +1,17 @@
+name: AppRTCMobile
+options:
+  bundleIdPrefix: com.github.otmb
+targets:
+  AppRTCMobile:
+    type: application
+    platform: iOS
+    deploymentTarget: "11.3"
+    sources:
+      - path: AppRTCMobile
+        excludes:
+          - "tests/*.*"
+          - "mac/*.*"
+    settings:
+      INFOPLIST_FILE: "AppRTCMobile/ios/Info.plist"
+      ENABLE_BITCODE: "NO"
+      OTHER_LDFLAGS: "$(inherited) -licucore"
