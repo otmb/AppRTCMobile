@@ -11,17 +11,9 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIcons</key>
-	<dict>
-		<key>CFBundlePrimaryIcon</key>
-		<dict>
-			<key>CFBundleIconFiles</key>
-			<array>
-				<string>Icon.png</string>
-				<string>Icon-120.png</string>
-				<string>Icon-180.png</string>
-			</array>
-		</dict>
-	</dict>
+	<dict/>
+	<key>CFBundleIcons~ipad</key>
+	<dict/>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -55,39 +47,6 @@
 	</array>
 	<key>UIFileSharingEnabled</key>
 	<true/>
-	<key>UILaunchImages</key>
-	<array>
-		<dict>
-			<key>UILaunchImageMinimumOSVersion</key>
-			<string>7.0</string>
-			<key>UILaunchImageName</key>
-			<string>iPhone5</string>
-			<key>UILaunchImageOrientation</key>
-			<string>Portrait</string>
-			<key>UILaunchImageSize</key>
-			<string>{320, 568}</string>
-		</dict>
-		<dict>
-			<key>UILaunchImageMinimumOSVersion</key>
-			<string>8.0</string>
-			<key>UILaunchImageName</key>
-			<string>iPhone6</string>
-			<key>UILaunchImageOrientation</key>
-			<string>Portrait</string>
-			<key>UILaunchImageSize</key>
-			<string>{375, 667}</string>
-		</dict>
-		<dict>
-			<key>UILaunchImageMinimumOSVersion</key>
-			<string>8.0</string>
-			<key>UILaunchImageName</key>
-			<string>iPhone6p</string>
-			<key>UILaunchImageOrientation</key>
-			<string>Portrait</string>
-			<key>UILaunchImageSize</key>
-			<string>{414, 736}</string>
-		</dict>
-	</array>
 	<key>UIStatusBarTintParameters</key>
 	<dict>
 		<key>UINavigationBar</key>

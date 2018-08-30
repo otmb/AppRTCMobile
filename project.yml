@@ -12,6 +12,7 @@ targets:
           - "tests/*.*"
           - "mac/*.*"
     settings:
+      ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
       INFOPLIST_FILE: "AppRTCMobile/ios/Info.plist"
       ENABLE_BITCODE: "NO"
       OTHER_LDFLAGS: "$(inherited) -licucore"
